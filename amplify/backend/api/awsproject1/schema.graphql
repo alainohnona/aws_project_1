@@ -1,0 +1,5 @@
+type Todo @model {
+  id: ID!  #field of type ID. this field is required
+  title: String!
+  note: String!
+}
